@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calc" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Calc" parent="Base.Theme.Calc" />
+    <style name="Buttons">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">28dp</item>
+        <item name="cornerRadius">9dp</item>
+        <item name="android:insetLeft">4dp</item>
+        <item name="android:insetRight">4dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="Buttons1">
+        <item name="android:textSize">15dp</item>
+        <item name="cornerRadius">9dp</item>
+        <item name="android:insetLeft">4dp</item>
+        <item name="android:insetRight">4dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+</resources>
